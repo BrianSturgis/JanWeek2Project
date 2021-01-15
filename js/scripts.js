@@ -33,19 +33,19 @@ $(document).ready(function() {
     console.log(question6);
     const question7 = $("#question7").val();
     console.log(question7);
-    const question7 = $("#question8").val();
+    const question8 = $("#question8").val();
     console.log(question8);
 
-    $("").text(question1);
-    $("").text(question2);
-    $("").text(question3);
-    $("").text(question4);
-    $(".").text(question5);
-    $(".").text(question6);
-    $(".").text(question7);
-    $(".").text(question8);
+    // $("").text(question1);
+    // $("").text(question2);
+    // $("").text(question3);
+    // $("").text(question4);
+    // $(".").text(question5);
+    // $(".").text(question6);
+    // $(".").text(question7);
+    // $(".").text(question8);
     
 
   //   // $("#story").show();
-  // });
+  });
 });
