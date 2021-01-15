@@ -53,6 +53,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * coffee
 * patience
 * Adobe Photoshop
+* three.js
 
 
 ### License
