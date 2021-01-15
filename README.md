@@ -13,7 +13,7 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 
 
 ## Known Bugs
-
+- this project was built in the early morning with out a .git accidentally until 10am..  see copy of git log if inquiring of applications build start time
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek1Project)
