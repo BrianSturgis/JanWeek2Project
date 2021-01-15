@@ -5,7 +5,6 @@
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 15th, v1.0 2021</p>
 
-
 ## Detailed Description
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
 
@@ -15,7 +14,6 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 - Form gathers input from the user.
 - Variable names are descriptive of what they represent.
 - Web page is styled using custom CSS.
-
 
 ## Known Bugs
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
@@ -52,6 +50,9 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * Visual Studio Code
 * Git
 * GitHub
+* coffee
+* patience
+* Adobe Photoshop
 
 
 ### License
