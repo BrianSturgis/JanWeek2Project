@@ -10,10 +10,15 @@
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
 
 ## The projects objectives were to complete the following 
+- Site uses branching to return the result.
+- jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+- Form gathers input from the user.
+- Variable names are descriptive of what they represent.
+- Web page is styled using custom CSS.
 
 
 ## Known Bugs
-- this project was built in the early morning with out a .git accidentally until 10am..  see copy of git log if inquiring of applications build start time
+- this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek1Project)
