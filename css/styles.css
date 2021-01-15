@@ -3,22 +3,25 @@
 }
 
 body{
-  width: 100vw;
-  height: 50vw;
+  width: 40vw;
+  height: 40vw;
   padding: 0%;
   margin: 2%;
   background-color: rgb(50, 163, 163);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: space-around;
   color: rgb(243, 243, 243);
 }
 
 .jumbotron {
-  padding-bottom: 10%;
+  /* position: absolute; */
+  padding-bottom: 1%;
 
 }
-.question {
-  padding-bottom: 20%;
+
+.output {
+  display: none;
 }
+
