@@ -19,7 +19,7 @@ $(document).ready(function() {
     event.preventDefault();
     const question1 = $("#question1").val();
     console.log(question1);
-    // const question2 = $("").val();
+    const userName = $("").val();
     // const question3= $("").val();
     // const question4 = $("").val();
     // const question5 = $("").val();
