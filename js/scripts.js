@@ -1,14 +1,7 @@
 // business logic
-
-
-
-
-
-
-
-
-
-
+function totalValue (num1,num2,num3,num4,num5,num6,num7,num8) {
+  return parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5) + parseInt(num6) + parseInt(num7) + parseInt(num8)
+}
 
 
 
@@ -18,24 +11,18 @@ $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
     const question1 = $("#question1").val();
-    console.log(question1);
     const userName = $("input#nameOfPerson").val();
-    console.log(userName);
     const question2= $("#question2").val();
-    console.log(question2);
     const question3 = $("#question3").val();
-    console.log(question3);
     const question4 = $("#question4").val();
-    console.log(question4);
     const question5 = $("#question5").val();
-    console.log(question5);
     const question6 = $("#question6").val();
-    console.log(question6);
     const question7 = $("#question7").val();
-    console.log(question7);
     const question8 = $("#question8").val();
-    console.log(question8);
+    let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
+    console.log(total);
 
+    
     // $("").text(question1);
     // $("").text(question2);
     // $("").text(question3);
