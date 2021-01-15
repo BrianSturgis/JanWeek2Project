@@ -1,5 +1,16 @@
 * {
+  box-sizing: border-box;
+}
+
+body{
+  width: 40vw;
+  height: 40vw;
   padding: 0%;
-  margin: 0%;
-  background-color: aqua;
+  margin: 2%;
+  background-color: rgb(50, 163, 163);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+
 }
