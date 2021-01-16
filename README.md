@@ -19,6 +19,7 @@ It is a solo project for a coding bootcamp i am attending in early 2021
 
 
 ## Known Bugs
+- there are most likely unused div tags and that is due to this project still being in a "build" state.
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
 - This project has Three.js and is currently not using it but is in its stretch goals for now.
 - UI is a very early state and the responsiveness is poor (gradient,margin,etc).
