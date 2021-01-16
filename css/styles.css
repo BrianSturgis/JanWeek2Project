@@ -7,7 +7,7 @@ body{
   height: 40vw;
   padding: 0%;
   margin: 2%;
-  background-color: rgb(50, 163, 163);
+  background-image: linear-gradient(aqua, purple);
   display: flex;
   /* flex-direction: column; */
   align-items: center;
@@ -26,3 +26,30 @@ body{
   display: none;
 }
 
+.Ruby {
+  display: none;
+}
+
+.Csharp{
+  display: none;
+}
+
+.Javascript {
+  display: none;
+}
+
+.Go {
+  display: none;
+}
+
+.Python {
+  display: none;
+}
+
+.Rust {
+  display: none;
+}
+
+.Swift {
+  display: none;
+}

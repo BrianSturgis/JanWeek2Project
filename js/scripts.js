@@ -14,8 +14,8 @@ $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
     const userName = $("input#nameOfPerson").val();
-    console.log(userName);
     const question1 = $("#question1").val();
+    console.log(question1)
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
     const question4 = $("#question4").val();
@@ -62,10 +62,10 @@ $(document).ready(function() {
       // $("#").hide();
       console.log("12");
     } else if (total >=9) {
-      // $("#").show();
+      $(".Ruby").();
       // $("#").hide();
       // $("#").hide();
-      $("#answers").show();
+      $(".output").show();
       $(".personName").text(userName);
       console.log("9");
     } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST"));
