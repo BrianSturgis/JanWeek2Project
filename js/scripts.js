@@ -15,7 +15,6 @@ $(document).ready(function() {
     event.preventDefault();
     const userName = $("input#nameOfPerson").val();
     const question1 = $("#question1").val();
-    console.log(question1)
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
     const question4 = $("#question4").val();
@@ -24,63 +23,41 @@ $(document).ready(function() {
     const question7 = $("#question7").val();
     const question8 = $("#question8").val();
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
-    console.log(total);
+    
 
     if (total >= 20){
       // $("#answer").show();
       // $("#Python").show();
       // $("#").hide();
-      // console.log("20");
     } else if (total >= 25) {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
-      console.log("25");
     } else if (total >= 23) {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
-      console.log("23");
     } else if (total >= 20) {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
-      console.log("20");
     } else if (total >=17) {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
-      console.log("17");
     } else if (total >=15) {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
-      console.log("15");
     } else if (total >=12) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
-      console.log("12");
-    } else if (total >=9) {
-      $(".Ruby").();
-      // $("#").hide();
-      // $("#").hide();
-      $(".output").show();
+      $(".language").text(" C# ");
+      $(".output").fadeIn();
       $(".personName").text(userName);
-      console.log("9");
+    } else if (total >=9) {
+      $(".language").text(" Ruby ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
+      console.log(total);
     } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST"));
-    // console.log(total);
-    $("#answers").show();
-    $(".personName").text(userName);
-    // $("").text(question2);
-    // $("#").text(question3);
-    // $("#").text(question4);
-    // $(".").text(question5);
-    // $(".").text(question6);
-    // $(".").text(question7);
-    // $(".").text(question8);
-    
-
-  
   });
 });
