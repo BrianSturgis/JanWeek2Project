@@ -23,32 +23,31 @@ $(document).ready(function() {
     const question7 = $("#question7").val();
     const question8 = $("#question8").val();
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
-    
 
     if (total >= 20){
-      // $("#answer").show();
-      // $("#Python").show();
-      // $("#").hide();
+      $(".language").text(" Unreal ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >= 25) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
+      $(".language").text(" Go ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >= 23) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
+      $(".language").text(" Javascript ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >= 20) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
+      $(".language").text(" Swift ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >=17) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
+      $(".language").text(" Rust ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >=15) {
-      // $("#").show();
-      // $("#").hide();
-      // $("#").hide();
+      $(".language").text(" Python ");
+      $(".output").fadeIn();
+      $(".personName").text(userName);
     } else if (total >=12) {
       $(".language").text(" C# ");
       $(".output").fadeIn();
@@ -58,6 +57,6 @@ $(document).ready(function() {
       $(".output").fadeIn();
       $(".personName").text(userName);
       console.log(total);
-    } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST"));
+    } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST YOU HAVE TO SHOW SOME INTEREST"));
   });
 });
