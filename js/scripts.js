@@ -22,7 +22,26 @@ $(document).ready(function() {
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
     console.log(total);
 
-    
+    if (total >= 20){
+      $("#").show();
+      $("#").hide();
+      $("#").hide();
+      console.log(total);
+    } else if (total >=15) {
+      $("#").show();
+      $("#").hide();
+      $("#").hide();
+    } else if (total >=15) {
+      $("#").show();
+      $("#").hide();
+      $("#").hide();
+    } else if (total >= 8) {
+      $("#").show();
+      $("#").hide();
+      $("#").hide();
+    } else (alert("PLEASE ANSWER THE QUESTION TO COMPLETE THE TEST"));
+
+
     // $("").text(question1);
     // $("").text(question2);
     // $("").text(question3);
