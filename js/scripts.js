@@ -6,9 +6,6 @@ function totalValue (num1,num2,num3,num4,num5,num6,num7,num8) {
   parseInt(num7) + parseInt(num8)
 }
 
-
-
-
 // ui logic
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
@@ -23,8 +20,7 @@ $(document).ready(function() {
     const question7 = $("#question7").val();
     const question8 = $("#question8").val();
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
-
-    if (total >= 20){
+    if (total >= 30){
       $(".language").text(" Unreal ");
       $(".output").fadeIn();
       $(".personName").text(userName);
