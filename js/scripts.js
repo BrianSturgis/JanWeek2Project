@@ -27,7 +27,7 @@ $(document).ready(function() {
       $("#").show();
       $("#").hide();
       console.log(total);
-    } else if (total >=15) {
+    } else if (total >=15) {hvh
       $("#").show();
       $("#").hide();
       $("#").hide();
@@ -37,10 +37,10 @@ $(document).ready(function() {
       $("#").hide();
       $("#").hide();
       // console.log("8");
-    } else if (total >= 8) {
-      $("#").show();
-      $("#").hide();
-      $("#").hide();
+    } else if (total >= 9) {
+      // $("#").show();
+      // $("#").hide();
+      // $("#").hide();
     } else (alert("PLEASE ANSWER THE QUESTION TO COMPLETE THE TEST"));
     // console.log(total);
 
