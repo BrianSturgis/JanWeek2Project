@@ -6,6 +6,7 @@
 <p align="center">Updated on Jan 15th, v0.9 2021</p>
 
 ## Detailed Description
+IN ITS CURRENT STATE THIS SOFTWARE IS MISSING SOME DEFINITION CONTENT AND IS %90 complete
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
 It is a solo project for a coding bootcamp i am attending in early 2021
 
