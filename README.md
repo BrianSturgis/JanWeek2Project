@@ -15,11 +15,13 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 - Variable names are descriptive of what they represent.
 - Web page is styled using custom CSS.
 
+
 ## Known Bugs
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
 - This projects functions at this time are not 100% operational as the JQuery section has not started. While it is very close and properly tests it need the results displayed logic to be completed over the weekend.
 - This project has Three.js and is currently not using it.
 - UI is a very early state and the responsiveness is poor.
+- - i get this error in the console "DevTools failed to load SourceMap: Could not load content for http://127.0.0.1:5501/css/bootstrap.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE" unless i place the bootstrap.css.map file in my rep
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek2Project)
