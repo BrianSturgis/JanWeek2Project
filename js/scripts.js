@@ -24,13 +24,13 @@ $(document).ready(function() {
     const question7 = $("#question7").val();
     const question8 = $("#question8").val();
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
-    // console.log(total);
+    console.log(total);
 
     if (total >= 20){
       // $("#answer").show();
-      // $("#").show();
+      // $("#Python").show();
       // $("#").hide();
-      console.log("20");
+      // console.log("20");
     } else if (total >= 25) {
       // $("#").show();
       // $("#").hide();
@@ -65,11 +65,13 @@ $(document).ready(function() {
       // $("#").show();
       // $("#").hide();
       // $("#").hide();
+      $("#answers").show();
+      $(".personName").text(userName);
       console.log("9");
-    } else (alert("PLEASE ANSWER THE QUESTION TO COMPLETE THE TEST"));
+    } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST"));
     // console.log(total);
-
-    // $("").text(question1);
+    $("#answers").show();
+    $(".personName").text(userName);
     // $("").text(question2);
     // $("#").text(question3);
     // $("#").text(question4);

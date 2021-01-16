@@ -15,14 +15,14 @@
   <div class="container">
     <div class="background">
       <form id="questions">
-        <div class="nameForm">
+        <!-- <div class="nameForm">
           <input id="nameOfPerson" type="text" name="name" autocomplete="off" required/>
           <label for="name" class="label-name"></label>
           <span class="content-name">please type in your name</span>
-        </div>
+        </div> -->
         <div class="question">
           <select class="custom-select" id="question1">
-            <option value="14">mac or pc?  </option>
+            <option value="4">mac or pc?  </option>
             <option value="2">MAC</option>cd 
             <option value="2">MAC only</option>
             <option value="2">PC</option>
@@ -55,9 +55,9 @@
             <option value="2">oh heck yeah!</option>
           </select>
           <select class="custom-select" id="question7">
-            <option value="1">have you much experience with computers</option>
+            <option value="1">have you much experience with computers?</option>
             <option value="2">none</option>cd 
-            <option value="2">i do have experience with computer?</option>
+            <option value="2">i do have experience with computer</option>
           </select>
           <select class="custom-select" id="question8">
             <option value="1">Have you ever programmed before?</option>
@@ -69,17 +69,14 @@
           <button type="submit" class="btn">CLICK HERE </button>
         </div>
       </form>
-
-
 <!-- out put to user -->
-
       <div class="output">
-        <div id="answer">
-          <h1>You should check out <span class="languageName">*</span></h1>
+        <form class="answer" id="answers">
+          <h1>You should check out <span class="languageName"></span></h1>
           <p>
-            <span class="personName">*</span>, In my opinion<span class="languageName"></span>would likely interest you the most especially since you like<span class="*"></span> and <span class="*"></span>. <span class="languageName">*</span> 
+            <span class="personName"></span>, In my opinion<span class="languageName"></span>would likely interest you the most especially since you like<span class="*"></span> and <span class="*"></span>. <span class="languageName"></span> 
           </p>
-        </div>
+        </form>
 
 
 
@@ -96,6 +93,7 @@
         <div id="Go">
         </div>
         <div id="Python">
+          PYTHN
         </div>
         <div id="Rust">
         </div>
