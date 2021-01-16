@@ -23,8 +23,8 @@ $(document).ready(function() {
     console.log(total);
 
     if (total >= 20){
+      $("#answer").show();
       $("#").show();
-      $("#").hide();
       $("#").hide();
       console.log(total);
     } else if (total >=15) {
