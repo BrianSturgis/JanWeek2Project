@@ -38,7 +38,7 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 - using git commands clone to local repo or click "download" and unpack on machine
 
 ## GIT HUB PAGES LINK
-
+- this application is currently not avail on gh pages. 
 
 ## Stretch goals
 - animated UI

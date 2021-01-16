@@ -14,6 +14,7 @@ $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
     const userName = $("input#nameOfPerson").val();
+    console.log(userName);
     const question1 = $("#question1").val();
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
@@ -70,8 +71,8 @@ $(document).ready(function() {
 
     // $("").text(question1);
     // $("").text(question2);
-    // $("").text(question3);
-    // $("").text(question4);
+    // $("#").text(question3);
+    // $("#").text(question4);
     // $(".").text(question5);
     // $(".").text(question6);
     // $(".").text(question7);
