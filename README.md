@@ -18,6 +18,8 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 ## Known Bugs
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
 - This projects functions at this time are not 100% operational as the JQuery section has not started. While it is very close and properly tests it need the results displayed logic to be completed over the weekend.
+- This project has Three.js and is currently not using it.
+- UI is a very early state and the responsiveness is poor.
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek2Project)
