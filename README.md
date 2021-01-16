@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="https://github.com/BrianSturgis.png" width="400px" height="auto" >
+<img src="img/capture.jpg" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 15th, v1.0 2021</p>
