@@ -31,16 +31,18 @@ $(document).ready(function() {
       $("#").show();
       $("#").hide();
       $("#").hide();
+      // console.log("15");
     } else if (total >=15) {
       $("#").show();
       $("#").hide();
       $("#").hide();
+      // console.log("8");
     } else if (total >= 8) {
       $("#").show();
       $("#").hide();
       $("#").hide();
     } else (alert("PLEASE ANSWER THE QUESTION TO COMPLETE THE TEST"));
-
+    // console.log(total);
 
     // $("").text(question1);
     // $("").text(question2);
