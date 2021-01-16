@@ -3,7 +3,7 @@
 <img src="img/capture.jpg" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Updated on Jan 15th, v1.0 2021</p>
+<p align="center">Updated on Jan 15th, v0.8 2021</p>
 
 ## Detailed Description
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
@@ -17,9 +17,10 @@ This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript an
 
 ## Known Bugs
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
+- This projects functions at this time are not 100% operational as the JQuery section has not started. While it is very close and properly tests it need the results displayed logic to be completed over the weekend.
 
 ## Setup/Installation Requirements
-- repository location (https://github.com/BrianSturgis/JanWeek1Project)
+- repository location (https://github.com/BrianSturgis/JanWeek2Project)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo
