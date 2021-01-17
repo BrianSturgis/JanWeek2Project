@@ -47,10 +47,12 @@ $(document).ready(function() {
     } else if (total >=12) {
       $(".language").text(" C# ");
       $(".output").fadeIn();
+      $(".rubyAnswer").fadeIn();
       $(".personName").text(userName);
     } else if (total >=9) {
       $(".language").text(" Ruby ");
       $(".output").fadeIn();
+      $(".cSharpAnswer").fadeIn();
       $(".personName").text(userName);
       console.log(total);
     } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST YOU HAVE TO SHOW SOME INTEREST"));
