@@ -27,14 +27,13 @@ body   {
 }
 
 .output {
-  padding-top: 20%;
+  padding-top: 11%;
   display: none;
 }
 
 .container {
   display: grid;
   margin: 0%;
-  /* padding: 200px; */
 }
 
 .container > div {
@@ -78,8 +77,4 @@ body   {
   color: rgb(0, 0, 0);
   font-style: bold;
   font-size: 30px;
-}
-
-#nameOfPerson {
-  margin: px
 }

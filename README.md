@@ -55,11 +55,11 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * HTML
 * Bootstrap
 * CSS
+* Jquery
 * Visual Studio Code
 * Git
 * GitHub
 * coffee
-* patience
 * Adobe Photoshop
 * three.js
 
