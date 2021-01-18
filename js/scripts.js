@@ -21,30 +21,37 @@ $(document).ready(function() {
     const question8 = $("#question8").val();
     let total = totalValue(question1,question2,question3,question4,question5,question6,question7,question8);
     if (total >= 30){
+      $("form#questions").fadeOut();
       $(".language").text(" Unreal ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >= 25) {
+      $("form#questions").fadeOut();
       $(".language").text(" Go ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >= 23) {
+      $("form#questions").fadeOut();
       $(".language").text(" Javascript ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >= 20) {
+      $("form#questions").fadeOut();
       $(".language").text(" Swift ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >=17) {
+      $("form#questions").fadeOut();
       $(".language").text(" Rust ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >=15) {
+      $("form#questions").fadeOut();
       $(".language").text(" Python ");
       $(".output").fadeIn();
       $(".personName").text(userName);
     } else if (total >=12) {
+      $("form#questions").fadeOut();
       $(".language").text(" Ruby ");
       $(".output").fadeIn();
       $(".rubyAnswer").fadeIn();
