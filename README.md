@@ -8,7 +8,7 @@
 ## Detailed Description
 
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
-It is a solo project for a coding bootcamp i am attending in early 2021
+It is a solo project for a coding bootcamp i am attending in early 2021.
 
 ## The projects objectives were to complete the following (MVP)
 - Site uses branching to return the result.
@@ -24,7 +24,7 @@ It is a solo project for a coding bootcamp i am attending in early 2021
 - this project was built in the early morning with out a .git and local repo initialized until 10am..  see copy of git log if inquiring of applications build start time.
 - This project has Three.js and is currently not using it but is in its stretch goals for now.
 - UI is a very early state and the responsiveness is poor (gradient,margin,etc).
-- - i get this error in the console "DevTools failed to load SourceMap: Could not load content for http://127.0.0.1:5501/css/bootstrap.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE" unless i place the bootstrap.css.map file in my rep
+- An error in the console is recieved "DevTools failed to load SourceMap: Could not load content for http://127.0.0.1:5501/css/bootstrap.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE" unless i place the bootstrap.css.map file in my rep
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWeek2Project)
