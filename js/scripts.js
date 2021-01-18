@@ -50,10 +50,12 @@ $(document).ready(function() {
       $(".rubyAnswer").fadeIn();
       $(".personName").text(userName);
     } else if (total >=9) {
-      $(".language").text(" Ruby ");
+      $("form#questions").fadeOut();
+      $(".language").fadeIn(" Ruby ");
       $(".output").fadeIn();
       $(".cSharpAnswer").fadeIn();
-      $(".personName").text(userName);
+      $(".personName").fadeIn(userName);
+      // $("form#questions").fadeOut();
       console.log(total);
     } else (alert("PLEASE ANSWER THE QUESTIONS TO COMPLETE THE TEST YOU HAVE TO SHOW SOME INTEREST"));
   });
