@@ -24,7 +24,7 @@ $(document).ready(function() {
       $("form#questions").fadeOut();
       $(".language").text(" Unreal ");
       $(".output").fadeIn();
-      $(".UnrealAnswer").fadeIn();
+      $(".Unreal").fadeIn();
       $(".personName").text(userName);
     } else if (total >= 25) {
       $("form#questions").fadeOut();

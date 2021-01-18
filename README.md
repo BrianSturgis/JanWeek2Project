@@ -3,7 +3,7 @@
 <img src="img/capture.jpg" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Updated on Jan 15th, v0.9 2021</p>
+<p align="center">Updated on Jan 15th, v1.0 2021</p>
 
 ## Detailed Description
 
@@ -45,6 +45,7 @@ It is a solo project for a coding bootcamp i am attending in early 2021
 - this application is currently not avail on gh pages. 
 
 ## Stretch goals
+- 
 - animated UI
 - unity driven UI
 - Adobe DSP workflow fully integrated 
