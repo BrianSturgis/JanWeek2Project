@@ -6,7 +6,7 @@
 <p align="center">Updated on Jan 15th, v0.9 2021</p>
 
 ## Detailed Description
-IN ITS CURRENT STATE THIS SOFTWARE IS MISSING SOME DEFINITION CONTENT AND IS %90 complete
+
 This is a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. 
 It is a solo project for a coding bootcamp i am attending in early 2021
 
@@ -16,7 +16,8 @@ It is a solo project for a coding bootcamp i am attending in early 2021
 - Form gathers input from the user.
 - Variable names are descriptive of what they represent.
 - Web page is styled using custom CSS.
-
+- Asks the user for their name and address them directly in all of the responses to them.
+- Uses fade in/out or slide in/out jQuery Effects throughout your project.
 
 ## Known Bugs
 - there are most likely unused div tags and that is due to this project still being in a "build" state.
