@@ -42,3 +42,27 @@ body   {
 .cSharpAnswer {
   display: none;
 }
+
+.pythonAnswer {
+  display: none;
+}
+
+.rustAnswer {
+  display: none;
+}
+
+.swiftAnswer {
+  display: none;
+}
+
+.javascriptAnswer {
+  display: none;
+}
+
+.goAnswer {
+  display: none;
+}
+
+.Unreal {
+  display: none;
+}
